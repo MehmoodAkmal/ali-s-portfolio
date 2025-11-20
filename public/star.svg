@@ -1,0 +1,10 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 200 200"
+      className="w-16 h-16"
+    >
+      <path
+        d="M100 0 L120 80 L200 100 L120 120 L100 200 L80 120 L0 100 L80 80 Z"
+        fill="#5FFFC9"
+      />
+    </svg>

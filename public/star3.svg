@@ -1,0 +1,27 @@
+<svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 200 200"
+      className="w-16 h-16"
+    >
+     <defs>
+    <!-- Bright center (#5fb682 lightened) fading to darker edge -->
+    <radialGradient id="starGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a7e0c5"/> <!-- lighter tint -->
+      <stop offset="60%" stop-color="#5fb682"/>
+      <stop offset="100%" stop-color="#2f5f44"/> <!-- darker edge -->
+    </radialGradient>
+    <!-- Drop shadow -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#a7e0c5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+      <path
+        d="M100 0 
+           C100 100, 100 100, 200 100 
+           C100 100, 100 100, 100 200 
+           C100 100, 100 100, 0 100 
+           C100 100, 100 100, 100 0Z"
+         fill="url(#starGrad)" 
+    filter="url(#shadow)"/>
+      
+    </svg>
